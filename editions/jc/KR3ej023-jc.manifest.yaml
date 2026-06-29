@@ -1,0 +1,118 @@
+canonical_identifier: bkk:krp/KR3ej023/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3ej023/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 顱顖經
+  identifiers:
+    krp: KR3ej023
+  tags:
+    kr-categories: KR3ej
+    tls-dates: dat04350
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ej023.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3ej023_000-jc.yaml, hash: 'sha256:0a77799de1a5ba2d511dbe154dd2d382764e490abd90eb4d20600d3f75a02d35'}
+  - {seq: 1, filename: KR3ej023_001-jc.yaml, hash: 'sha256:2f468af8ca346e7ac413bdfe6a2a89f0712561a2648668c6deddb31ec9a93f74'}
+  - {seq: 3, filename: KR3ej023_003-jc.yaml, hash: 'sha256:94eb7c75c9c3fadcc77bbdd7c577abdbd32ec046987611a2399c72324eba369e'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ej023_000-jc.markers.yaml, hash: 'sha256:5c4c815077e133700ad711920e2f871e958af7d91dfe68cddb38f540c4370382'}
+  - {seq: 1, role: markers, filename: assets/KR3ej023_001-jc.markers.yaml, hash: 'sha256:2ddb55f54c78aeab175441ffe592f5caf0e1022a8b1aba46bf41c752c4e99516'}
+  - {seq: 3, role: markers, filename: assets/KR3ej023_003-jc.markers.yaml, hash: 'sha256:cec97d6ac7a1c8f591704084b4ea2cf6d20aeb5e4db44975c09443fbea9dd0d8'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ej023_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 640
+  label: 原序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3ej023_jc_001-d3.h1s1
+    span:
+    - body
+    - 0
+    - 3013
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3ej023_jc_001-d3d2
+    span:
+    - body
+    - 2
+    - 215
+  label: 脈法
+  type: section
+  level: 2
+- ref:
+    seq: 1
+    marker_id: KR3ej023_jc_001-d3d3
+    span:
+    - body
+    - 215
+    - 1086
+  label: 病證
+  type: section
+  level: 2
+- ref:
+    seq: 1
+    marker_id: KR3ej023_jc_001-d3d4
+    span:
+    - body
+    - 1086
+    - 1670
+  label: 驚癇癲證治
+  type: section
+  level: 2
+- ref:
+    seq: 1
+    marker_id: KR3ej023_jc_001-d3d5
+    span:
+    - body
+    - 1670
+    - 3013
+  label: 疳痢證治
+  type: section
+  level: 2
+- ref:
+    seq: 3
+    marker_id: KR3ej023_jc_003-d4.h1s1
+    span:
+    - body
+    - 0
+    - 2029
+  label: 卷下
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3ej023_jc_003-d4d2
+    span:
+    - body
+    - 2
+    - 548
+  label: 火丹證治
+  type: section
+  level: 2
+- ref:
+    seq: 3
+    marker_id: KR3ej023_jc_003-d4d3
+    span:
+    - body
+    - 548
+    - 2029
+  label: 雜證
+  type: section
+  level: 2
+hash: sha256:253c28c81f9f1ef7a293d533d26cedab959bf46d118a91185dd456a15d5b4985
